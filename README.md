@@ -1,9 +1,4 @@
-<p>
-  <h1 align="center">Ruby on Rails - Social Network</h1>
-</p>
-<br>
-
-This project consists of building and Test a social network (Facebook clone), with a large portion of the core Facebook user functionality. Real Facebook accounts Authentication was implemented.
+<h1 align="center">Ruby on Rails - Social Network</h1>
 <p align="center">
   <a href="https://www.ruby-lang.org/en/">
     <img src="https://img.shields.io/badge/Ruby-v2.6.5-brightgreen.svg" alt="ruby version">
@@ -13,33 +8,47 @@ This project consists of building and Test a social network (Facebook clone), wi
   </a>
 </p>
 
-[![Social NetWork Video](https://img.youtube.com/vi/eLGAqI2pYvc/0.jpg)](https://www.youtube.com/watch?v=eLGAqI2pYvc)
+<p align="center">
+  <img src="lib/assets/screenshot.jpg">
+</p>
+
+## Table of Contents
+* [About](#About)
+* [ERD](#ERD)
+* [Built With](#build)
+* [Live Version](#live)
+* [Getting Started](#started)
+* [Testing](#Testing)
+* [Contributing](#Contributing)
+* [Authors](#Authors)
+* [Show Your Support](#show)
+* [License](#License)
+
+## About
+
+This project consists of building and testing a social network web application. A large portion its core user functionality mimics that of Facebook.
 
 ## ERD
 ![ERD](lib/assets/Facebook_Clone_ERD.jpg)
 
-In this project, we will build a Web App with the following technologies:
-- Ruby on Rails
-- PostgreSQL
-
-## Technologies used
+## Built With <span id="built"></span>
 
 - Ruby on Rails
 - RSpec
 - PostgreSQL
 - Git
 - Bootstrap
-- HTML & CSS
+- HTML5 & CSS3
 - Heroku
 - OAuth2
 
-## Live Version
+## Live Version <span id="live"></span>
 
 [Social Network](https://frozen-hamlet-01864.herokuapp.com) 
 
-## Getting started
+## Getting started <span id="started"></span>
   
-  To get started with the app, first clone the repo and `cd` into the directory:
+  To get started with the app, first clone the repo and cd into the directory:
   
   ```
   $ git clone https://github.com/AndresFMoya/ROR-Facebook_Clone.git
@@ -58,16 +67,17 @@ In this project, we will build a Web App with the following technologies:
   $ rails db:migrate
   ```
   
-  Finally, run the test suite to verify that everything is working correctly:
-  
-  ```
-  $ bundle execute rspec
-  ```
-  
-  If the test suite passes, you'll be ready to run the app in a local server:
+  Run the app in a local server:
   
   ```
   $ rails server
+  ```
+
+## Testing
+
+To test the application, cd into the project directory and run the following command in the terminal:
+  ```
+  $ bundle execute rspec
   ```
 
 ## 🤝 Contributing
@@ -80,11 +90,18 @@ Contributions, issues and feature requests are welcome! Feel free to check [issu
 4. Push to the branch (git push origin [chosen-name])
 5. Create a new pull request
 
-## Contributors
-[Kerron King](https://github.com/KerronKing)  
-[Andrés F. Moya](https://github.com/AndresFMoya)
+## Authors
+:bust_in_silhouette: Kerron King
 
-## Show your support
+* Github: [@KerronKing](https://github.com/KerronKing)
+* Email: kerronk1989@gmail.com
+* Linkedin: [Kerron King](linkedin.com/in/kerron-shawn-king)
+
+:bust_in_silhouette: Andrés F. Moya
+
+* Github: [Andrés F. Moya](https://github.com/AndresFMoya)
+
+## Show your support <span id="show"></span>
 
 Give a ⭐️ if you like this project!
 
@@ -92,15 +109,5 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](https://github.com/AndresFMoya/RoR-Facebook_Clone/blob/develop/LICENSE) licensed.
 
-## 📞 Get in Touch!
-I will love to hear about you at one of the following places! :heart:
 
-- [LinkedIn](https://www.linkedin.com/in/andres-f-moya/)
-- [Twitter](https://www.twitter.com/andmedev/) 
-- <andresfmoya@gmail.com>.
 
-<p align="center">
-  <strong>
-    <a href="https://andresmoya.me">andresmoya.me</a>
-</strong>
-</p>
