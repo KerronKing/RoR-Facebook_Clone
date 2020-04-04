@@ -75,7 +75,7 @@ This project consists of building and testing a social network web application. 
 
   Use the following login credentials for quick access:
   - Name: Test User 5
-  - Email: text@example.com
+  - Email: test@example.com
   - Password: 123456
 
 ## Testing
