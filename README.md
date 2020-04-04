@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="lib/assets/screenshot.jpg">
+  <img src="lib/assets/fb-screen.png">
 </p>
 
 ## Table of Contents
@@ -72,6 +72,11 @@ This project consists of building and testing a social network web application. 
   ```
   $ rails server
   ```
+
+  Use the following login credentials for quick access:
+  - Name: Test User 5
+  - Email: text@example.com
+  - Password: 123456
 
 ## Testing
 
